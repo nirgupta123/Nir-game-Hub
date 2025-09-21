@@ -1,0 +1,121 @@
+body {
+            background-color: rgb(166, 201, 231);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        #game-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #red {
+            background-color: rgba(255, 0, 0, 0.7);
+            width: 150px;
+            height: 150px;
+        }
+        
+        #green {
+            background-color: rgba(0, 255, 0, 0.7);
+            width: 150px;
+            height: 150px;
+        }
+        
+        #blue {
+            background-color: rgba(0, 0, 255, 0.7);
+            width: 150px;
+            height: 150px;
+        }
+        
+        #yellow {
+            background-color: rgba(255, 255, 0, 0.7);
+            width: 150px;
+            height: 150px;
+        }
+        
+        .color-button {
+            display: inline-block;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            border: 4px solid #333;
+            transition: transform 0.1s;
+        }
+        
+        .color-button:active {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(4px);
+        }
+        
+        .flash {
+            background-color: white !important;
+            box-shadow: 0 0 20px white;
+        }
+        
+        #start-button {
+            margin-top: 30px;
+            padding: 12px 24px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+        }
+        
+        #start-button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        #level-title {
+            font-size: 28px;
+            margin: 20px 0;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .game-over {
+            background-color: red;
+            opacity: 0.8;
+        }
+        
+        .instructions {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h3{
+            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            align-self: self-end;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
